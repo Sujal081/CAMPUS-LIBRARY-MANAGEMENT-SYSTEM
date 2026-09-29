@@ -1,5 +1,5 @@
-from src.library import add_book, issue_book, return_book
-from src.data import library_books, issued_books
+from library import add_book, issue_book, return_book
+from data import library_books, issued_books
 
 def reset_data():
     library_books.clear()
