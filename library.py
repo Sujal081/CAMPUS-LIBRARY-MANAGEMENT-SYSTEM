@@ -1,4 +1,4 @@
-from src.data import library_books, issued_books
+from data import library_books, issued_books
 def add_book(title):
     if title not in library_books:
         library_books.append(title)
