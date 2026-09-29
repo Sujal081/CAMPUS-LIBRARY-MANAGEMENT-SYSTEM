@@ -1,6 +1,6 @@
-from src.library import add_book, issue_book, return_book
-from src.validators import valid_title, valid_student
-from src.reports import show_books, show_summary
+from library import add_book, issue_book, return_book
+from validators import valid_title, valid_student
+from reports import show_books, show_summary
 def run_library_system():
     while True:
         print("\nCampus Library Management System")
